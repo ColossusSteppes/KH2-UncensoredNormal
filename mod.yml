@@ -1,0 +1,766 @@
+title: Uncensorship (Normal)
+description: Based on TieuLink's Uncensorship mod but is more normal about it.
+assets:
+#Hydra's blood
+- name: obj/B_HE100.a.us #Duplicated -9.dds to -10 and shifted the rest
+  platform: pc
+  method: binarc
+  source:
+  - name: b_he
+    type: pax
+    method: copy
+    source:
+    - name: obj/b_he100.pax
+- name: remastered/obj/B_HE100.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-0.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-1.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-2.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-3.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-4.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-5.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-6.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-7.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-8.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-9.dds
+  multi:
+  - name: remastered/obj/B_HE100.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-9.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-10.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-11.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/-13.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/-12.dds
+    type: internal
+- name: remastered/obj/B_HE100.a.us/se/obj/se275
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE100.a.us/se/obj/se275
+    type: internal
+- name: obj/B_HE110.a.us
+  platform: pc
+  method: binarc
+  source:
+  - name: b_he
+    type: pax
+    method: copy
+    source:
+    - name: obj/b_he110.pax
+- name: remastered/obj/B_HE110.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE110.a.us/-0.dds
+    type: internal
+- name: remastered/obj/B_HE110.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE110.a.us/-1.dds
+    type: internal
+- name: remastered/obj/B_HE110.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE110.a.us/-2.dds
+    type: internal
+- name: remastered/obj/B_HE110.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE110.a.us/-3.dds
+    type: internal
+- name: remastered/obj/B_HE110.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_HE110.a.us/-4.dds
+    type: internal
+#Daisy's spank (missing the sound effect se/se2011)
+- name: anm/us/dc/n_dc020/EDC11115E.anb
+  platform: pc
+  method: copy
+  source:
+  - name: anm/n_dc020/EDC11115E.anb
+- name: anm/us/dc/p_ex020/EDC11115E.anb
+  platform: pc
+  method: copy
+  source:
+  - name: anm/p_ex020/EDC11115E.anb
+#Pirate C's gun
+- name: obj/us/B_CA040.mdlx
+  platform: pc
+  method: copy
+  source:
+  - name: obj/B_CA040.mdlx
+    type: internal
+- name: obj/us/B_CA040_HUM_OKA.mdlx
+  platform: pc
+  method: copy
+  source:
+  - name: obj/B_CA040_HUM_OKA.mdlx
+    type: internal
+- name: obj/us/B_CA040_PUB.mdlx
+  platform: pc
+  method: copy
+  source:
+  - name: obj/B_CA040_PUB.mdlx
+    type: internal
+- name: obj/us/B_CA040_SKL_OKA.mdlx
+  platform: pc
+  method: copy
+  source:
+  - name: obj/B_CA040_SKL_OKA.mdlx
+    type: internal
+#Pirates on fire
+- name: obj/B_CA010.a.us #Added new -10.dds and shifted the rest
+  platform: pc
+  method: binarc
+  source:
+  - name: b_ca
+    type: pax
+    method: copy
+    source:
+    - name: obj/b_ca010.pax
+- name: remastered/obj/B_CA010.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-0.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-1.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-2.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-3.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-4.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-5.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-6.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-7.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-8.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-9.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/fire.dds
+- name: remastered/obj/B_CA010.a.us/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-10.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-11.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-13.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-12.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/-14.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/-13.dds
+    type: internal
+- name: remastered/obj/B_CA010.a.us/se/obj/se293
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/se/obj/se293
+    type: internal
+- name: remastered/obj/B_CA010.a.us/voice/battle/us/barbossa
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA010.a.us/voice/battle/us/barbossa
+    type: internal
+- name: obj/B_CA020.a.us #Added new -3.dds and shifted the rest
+  platform: pc
+  method: binarc
+  source:
+  - name: b_ca
+    type: pax
+    method: copy
+    source:
+    - name: obj/b_ca020.pax
+- name: remastered/obj/B_CA020.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-0.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-1.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-2.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/fire.dds
+- name: remastered/obj/B_CA020.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-3.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-4.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-5.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-6.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-7.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-8.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/-9.dds
+    type: internal
+- name: remastered/obj/B_CA020.a.us/se/obj/se294
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/se/obj/se294
+    type: internal
+- name: remastered/obj/B_CA020.a.us/voice/battle/us/pirate1
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA020.a.us/voice/battle/us/pirate1
+    type: internal
+- name: obj/B_CA030.a.us #Added new -0.dds and shifted the rest
+  platform: pc
+  method: binarc
+  source:
+  - name: b_ca
+    type: pax
+    method: copy
+    source:
+    - name: obj/b_ca030.pax
+- name: remastered/obj/B_CA030.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/fire.dds
+- name: remastered/obj/B_CA030.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/-0.dds
+    type: internal
+- name: remastered/obj/B_CA030.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/-1.dds
+    type: internal
+- name: remastered/obj/B_CA030.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/-2.dds
+    type: internal
+- name: remastered/obj/B_CA030.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/-3.dds
+    type: internal
+- name: remastered/obj/B_CA030.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/-4.dds
+    type: internal
+- name: remastered/obj/B_CA030.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/-5.dds
+    type: internal
+- name: remastered/obj/B_CA030.a.us/se/obj/se295
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/se/obj/se295
+    type: internal
+- name: remastered/obj/B_CA030.a.us/voice/battle/us/pirate2
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA030.a.us/voice/battle/us/pirate2
+    type: internal
+- name: obj/B_CA040.a.us #Added new -3.dds and shifted the rest
+  platform: pc
+  method: binarc
+  source:
+  - name: b_ca
+    type: pax
+    method: copy
+    source:
+    - name: obj/b_ca040.pax
+- name: remastered/obj/B_CA040.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-0.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-1.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-2.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/fire.dds
+- name: remastered/obj/B_CA040.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-3.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-4.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-5.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-6.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-7.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-8.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/-9.dds
+    type: internal
+- name: remastered/obj/B_CA040.a.us/se/obj/se296
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/se/obj/se296
+    type: internal
+- name: remastered/obj/B_CA040.a.us/voice/battle/us/pirate3
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_CA040.a.us/voice/battle/us/pirate3
+    type: internal
+#Will's gun
+- name: anm/us/ca/f_ca560/ECA12002E.anb
+  platform: pc
+  method: copy
+  source:
+  - name: anm/fm/ca/f_ca560/ECA12002E.anb
+    type: internal
+- name: anm/us/ca/f_ca560/ECA12003E.anb
+  platform: pc
+  method: copy
+  source:
+  - name: anm/fm/ca/f_ca560/ECA12003E.anb
+    type: internal
+- name: anm/us/ca/f_ca560/ECA12004E.anb
+  platform: pc
+  method: copy
+  source:
+  - name: anm/fm/ca/f_ca560/ECA12004E.anb
+    type: internal
+- name: anm/us/ca/h_ca040/ECA12002E.anb #Lip sync too noticeably different
+  platform: pc
+  method: copy
+  source:
+  - name: anm/h_ca040/ECA12002E.anb
+- name: anm/us/ca/n_ca020/ECA12003E.anb
+  platform: pc
+  method: copy
+  source:
+  - name: anm/fm/ca/n_ca020/ECA12003E.anb
+    type: internal
+- name: anm/us/ca/n_ca020/ECA12004E.anb
+  platform: pc
+  method: copy
+  source:
+  - name: anm/fm/ca/n_ca020/ECA12004E.anb
+    type: internal
+#Barbossa's sword inside Jack
+- name: ard/us/ca10.ard
+  multi:
+  - name: ard/fr/ca10.ard
+  - name: ard/gr/ca10.ard
+  - name: ard/sp/ca10.ard
+  - name: ard/it/ca10.ard
+  platform: pc
+  method: binarc
+  source:
+  - name: 123
+    type: event
+    method: copy
+    source:
+    - name: ard/ca10/123.bin
+#Axel's death fires?
+#Xigbar's crosshairs (4:3 graphics during new backdrop)
+- name: obj/B_EX140.a.us
+  multi:
+  - name: obj/B_EX140_LV99.a.us
+  platform: pc
+  method: binarc
+  source:
+  - name: b_ex
+    type: barunknown
+    method: copy
+    source:
+    - name: obj/b_ex140.bar
+- name: remastered/obj/B_EX140.a.us/-0.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-0.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-1.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-1.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-2.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-2.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-3.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-3.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-4.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-4.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-5.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-5.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-6.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-6.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-7.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-7.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-7.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-8.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-8.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-9.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-9.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-10.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-10.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-11.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-11.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-11.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-12.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-12.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-12.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-13.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-13.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-13.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-14.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-14.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-14.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-15.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-15.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-15.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-16.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-16.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-16.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-17.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-17.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-17.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-18.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-18.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-18.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/-19.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-19.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/B_EX140.a.us/-19.dds
+- name: remastered/obj/B_EX140.a.us/-20.dds
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/-20.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/-20.dds
+    type: internal
+- name: remastered/obj/B_EX140.a.us/se/obj/se320
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/se/obj/se320
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/se/obj/se320
+    type: internal
+- name: remastered/obj/B_EX140.a.us/voice/battle/us/n_sniper
+  multi:
+  - name: remastered/obj/B_EX140_LV99.a.us/voice/battle/us/n_sniper
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/B_EX140.a.us/voice/battle/us/n_sniper
+    type: internal
